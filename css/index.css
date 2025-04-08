@@ -1,0 +1,116 @@
+body{
+  background-color: #74A662;
+  margin: 0px;
+}
+
+/* Nav Bar */
+.nav-bar{
+  display: flex;
+  flex:1;
+  height: 15vh;
+  border: solid whitesmoke 1px;
+}
+
+.nav-bar-logo{
+  display: flex;
+  width: 25vw;
+  background-color: white;
+  justify-content: center;
+}
+
+a {
+  color: inherit; /* Sets the link color to match its surrounding text */
+  text-decoration: none; /* Removes the underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Optional hover effect */
+  color: #FFD700; /* Change to gold or another hover color */
+}
+
+
+.nav-bar-links{
+  display: flex;
+  width: 50vw;
+  flex-direction: row;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 17px;
+}
+
+.nav-bar-explore{
+  display: flex;
+  width: 25vw;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+.nav-bar-explore-search-button{
+  display: flex;
+  border: whitesmoke;
+  border-radius: 5px;
+}
+
+.nav-bar-explore-search-button-img{
+  display: flex;
+  flex: 1;
+  height: 4vh;
+}
+
+.nav-bar-explore-login{
+  display: flex;
+  border-radius: 5px;
+  background-color: black;
+  color:whitesmoke;
+  height: 4vh;
+  width:9vw;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  height: 85vh;
+}
+
+
+.main-left{
+  display: flex;
+  flex: 1;
+  color:  #FFD700;
+  height: 85vh;
+  width:50vw;
+  align-items: center;
+  justify-content: center;
+  padding-left:5vw;
+
+}
+
+.mission-statement{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.main-right{
+  display: flex;
+  flex: 1;
+  height: 85vh;
+  width:50vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image{
+  display: flex;
+  max-width: auto;
+  height: 50vh;
+  border-radius: 10px;;
+}
+
+
