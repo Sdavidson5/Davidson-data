@@ -109,19 +109,19 @@ h1{
   height: 100vh;
 }
 
-.section-1{
+.space{
 background-color: lightblue;
 }
 
-.section-2{
+.personal{
   background-color: lightgreen;
+  display: grid;
+  grid-template-rows: 15fr 15fr 15fr 30fr 15fr 10fr;
+  width: 100%;
 }
 .section-3{
   background-color: lightpink;
 }
 .section-4{
   background-color: lightyellow;
-}
-.section-5{
-  background-color: lightgray;
 }
