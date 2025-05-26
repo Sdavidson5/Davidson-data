@@ -121,6 +121,8 @@ background-color: lightblue;
 }
 .section-3{
   background-color: lightpink;
+  display: grid;
+  grid-template-rows: 45% 15% 30% 10%;
 }
 .section-4{
   background-color: lightyellow;
