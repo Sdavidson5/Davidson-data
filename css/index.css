@@ -110,7 +110,7 @@ h1{
 }
 
 .space{
-background-color: lightblue;
+color: #fff;
 }
 
 .personal{
@@ -120,10 +120,26 @@ background-color: lightblue;
   width: 100%;
 }
 .section-3{
-  background-color: lightpink;
   display: grid;
   grid-template-rows: 45% 15% 30% 10%;
 }
+
+.hero{
+  background-color: lightblue;
+}
+
+.highlights{
+  background-color: lightcoral;
+}
+
+.services{
+  background-color: lightcyan;
+}
+
+.hero-space{
+  color: #fff;
+}
+
 .section-4{
   background-color: lightyellow;
 }
