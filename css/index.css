@@ -149,6 +149,25 @@ color: #fff;
   font-size: 1.125rem;
 }
 
+.personal-proficiency{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-links a{
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+  
+
 .section-3{
   display: grid;
   grid-template-rows: 45% 15% 30% 10%;
